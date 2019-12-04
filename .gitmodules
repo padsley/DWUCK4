@@ -1,0 +1,3 @@
+[submodule "cublib4"]
+	path = cublib4
+	url = https://github.com/padsley/culib4.git

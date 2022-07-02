@@ -1,13 +1,13 @@
-gfortran -c *.FOR
+gfortran --std=legacy -c *.FOR
 gfortran -c DW4UNIX.F
 
 cd culib4
 
-gfortran -c *.FOR
+gfortran --std=legacy -c *.FOR
 
 cd ../culib8
 
-gfortran -c *.FOR
+gfortran --std=legacy -c *.FOR
 
 cd ..
 

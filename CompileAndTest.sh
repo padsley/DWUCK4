@@ -1,4 +1,5 @@
 gfortran --std=legacy -c *.FOR
+#added --std=legacy to obviate awkward compilation error in ADWCK.FOR caused by FORTRAN being a messy little goblin
 gfortran -c DW4UNIX.F
 
 cd culib4
